@@ -27,25 +27,39 @@ header {
 #my-form .formform {
     margin-top: 20px;
     font-size: 3rem;
-    height: 20px;
 }
 
-#my-form #usertext {
+#my-form #userText {
     height: 50px;
     width: 200px;
+    font-size: 3rem;
 }
 
 #my-form .btn {
-    height: 50px;
-    width: 100px;
+    
+    height: 100px;
+    width: 150px;
     text-align: center;
     justify-content: center;
     align-items: center;
-
-    display: flex;
+    margin-top: 20px;
+    font-size: 2rem;
 }
-
 
 .main-container {
     padding: 5% 15% 0% 15%;
+}
+
+#users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    text-align: center;
+    height: 250px;
+    font-size: 3rem;
+    font-weight: bold;
+    border: 10px solid red;
+    width: auto;
+    /* width: 100px; */
 }
